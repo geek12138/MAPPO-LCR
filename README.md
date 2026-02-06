@@ -18,21 +18,26 @@ It is worth mentioning that because python runs slowly, we use cuda library to i
 conda env create -f environment.yaml
 ```
 
-The complete code will be released after acceptance.
+## Usage
+```bash
+sh run_one_MAPPO_LCR.sh
+```
 
 ## Citation
 
 If you use our codebase or models in your research, please cite this work.
 
 ```
-@misc{yang2025mappolcrmultiagentpolicyoptimization,
-      title={MAPPO-LCR: Multi-Agent Policy Optimization with Local Cooperation Reward in Spatial Public Goods Games}, 
-      author={Zhaoqilin Yang and Axin Xiang and Kedi Yang and Tianjun Liu and Youliang Tian},
-      year={2025},
-      eprint={2512.17187},
-      archivePrefix={arXiv},
-      primaryClass={cs.MA},
-      url={https://arxiv.org/abs/2512.17187}, 
+@article{YANG2026117948,
+title = {MAPPO-LCR: Multi-Agent Proximal Policy Optimization with Local Cooperation Reward in spatial public goods games},
+journal = {Chaos, Solitons & Fractals},
+volume = {206},
+pages = {117948},
+year = {2026},
+issn = {0960-0779},
+doi = {https://doi.org/10.1016/j.chaos.2026.117948},
+url = {https://www.sciencedirect.com/science/article/pii/S0960077926000895},
+author = {Zhaoqilin Yang and Axin Xiang and Kedi Yang and Tianjun Liu and Youliang Tian}
 }
 ```
 
